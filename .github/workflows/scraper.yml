@@ -1,0 +1,40 @@
+name: Windscribe IP Scraper
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight UTC
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  scrape-and-update:
+    name: Scrape and Update IPs
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Run Unit Tests
+        run: npm test
+
+      - name: Run Scraper
+        run: npm run scrape
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add windscribe_ips.json windscribe_ips.txt windscribe_serverlist.json windscribe_entry_ips.json windscribe_entry_ips.txt windscribe_subdomains.json
+          git commit -m "chore(data): update Windscribe IPs [skip ci]" || echo "No changes to commit"
+          git push
