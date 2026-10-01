@@ -73,7 +73,7 @@
             {
               "hostname": "us-central-154.whiskergalaxy.com",
               "weight": 1,
-              "health": 7,
+              "health": 5,
               "ips": [
                 "185.238.28.64",
                 "185.238.28.65",
@@ -83,7 +83,7 @@
             {
               "hostname": "us-central-152.whiskergalaxy.com",
               "weight": 1,
-              "health": 6,
+              "health": 4,
               "ips": [
                 "185.238.28.32",
                 "185.238.28.33",
@@ -93,7 +93,7 @@
             {
               "hostname": "us-central-153.whiskergalaxy.com",
               "weight": 1,
-              "health": 7,
+              "health": 4,
               "ips": [
                 "185.238.28.48",
                 "185.238.28.49",
@@ -101,7 +101,7 @@
               ]
             }
           ],
-          "health": 7
+          "health": 4
         },
         {
           "id": 192,
@@ -118,9 +118,19 @@
           "link_speed": "10000",
           "nodes": [
             {
+              "hostname": "us-central-160.whiskergalaxy.com",
+              "weight": 1,
+              "health": 3,
+              "ips": [
+                "2.56.188.241",
+                "45.149.174.16",
+                "45.149.174.17"
+              ]
+            },
+            {
               "hostname": "us-central-159.whiskergalaxy.com",
               "weight": 1,
-              "health": 4,
+              "health": 3,
               "ips": [
                 "2.56.188.242",
                 "45.149.174.0",
@@ -130,25 +140,15 @@
             {
               "hostname": "us-central-161.whiskergalaxy.com",
               "weight": 1,
-              "health": 5,
+              "health": 4,
               "ips": [
                 "2.56.188.240",
                 "45.149.174.32",
                 "45.149.174.33"
               ]
-            },
-            {
-              "hostname": "us-central-160.whiskergalaxy.com",
-              "weight": 1,
-              "health": 4,
-              "ips": [
-                "2.56.188.241",
-                "45.149.174.16",
-                "45.149.174.17"
-              ]
             }
           ],
-          "health": 4
+          "health": 3
         },
         {
           "id": 331,
@@ -279,6 +279,16 @@
           "link_speed": "10000",
           "nodes": [
             {
+              "hostname": "us-east-159.whiskergalaxy.com",
+              "weight": 1,
+              "health": 6,
+              "ips": [
+                "135.136.3.98",
+                "135.136.3.99",
+                "135.136.3.100"
+              ]
+            },
+            {
               "hostname": "us-east-158.whiskergalaxy.com",
               "weight": 1,
               "health": 5,
@@ -286,16 +296,6 @@
                 "135.136.3.34",
                 "135.136.3.35",
                 "135.136.3.36"
-              ]
-            },
-            {
-              "hostname": "us-east-159.whiskergalaxy.com",
-              "weight": 1,
-              "health": 7,
-              "ips": [
-                "135.136.3.98",
-                "135.136.3.99",
-                "135.136.3.100"
               ]
             }
           ],
@@ -318,7 +318,7 @@
             {
               "hostname": "us-east-162.whiskergalaxy.com",
               "weight": 1,
-              "health": 5,
+              "health": 3,
               "ips": [
                 "135.136.5.98",
                 "135.136.5.99",
@@ -328,7 +328,7 @@
             {
               "hostname": "us-east-155.whiskergalaxy.com",
               "weight": 1,
-              "health": 5,
+              "health": 3,
               "ips": [
                 "135.136.5.66",
                 "135.136.5.67",
@@ -336,7 +336,7 @@
               ]
             }
           ],
-          "health": 5
+          "health": 3
         },
         {
           "id": 146,
@@ -383,7 +383,7 @@
             {
               "hostname": "us-east-189.whiskergalaxy.com",
               "weight": 1,
-              "health": 3,
+              "health": 5,
               "ips": [
                 "23.82.138.30",
                 "23.108.49.17",
@@ -393,7 +393,7 @@
             {
               "hostname": "us-east-188.whiskergalaxy.com",
               "weight": 1,
-              "health": 4,
+              "health": 2,
               "ips": [
                 "23.82.138.110",
                 "23.108.49.33",
@@ -763,7 +763,7 @@
             {
               "hostname": "us-west-095.whiskergalaxy.com",
               "weight": 1,
-              "health": 6,
+              "health": 13,
               "ips": [
                 "38.95.111.162",
                 "38.95.111.163",
@@ -771,7 +771,7 @@
               ]
             }
           ],
-          "health": 6
+          "health": 9
         },
         {
           "id": 182,
@@ -832,7 +832,7 @@
             {
               "hostname": "us-west-084.whiskergalaxy.com",
               "weight": 1,
-              "health": 6,
+              "health": 5,
               "ips": [
                 "198.54.131.211",
                 "198.54.131.212",
@@ -840,7 +840,7 @@
               ]
             }
           ],
-          "health": 6
+          "health": 5
         },
         {
           "id": 302,
@@ -1000,7 +1000,7 @@
             {
               "hostname": "ca-038.whiskergalaxy.com",
               "weight": 1,
-              "health": 4,
+              "health": 26,
               "ips": [
                 "198.44.157.43",
                 "198.44.157.44",
@@ -1008,7 +1008,7 @@
               ]
             }
           ],
-          "health": 4
+          "health": 26
         },
         {
           "id": 197,
@@ -1027,7 +1027,7 @@
             {
               "hostname": "ca-059.whiskergalaxy.com",
               "weight": 1,
-              "health": 6,
+              "health": 5,
               "ips": [
                 "149.88.98.177",
                 "149.88.98.178",
@@ -1035,7 +1035,7 @@
               ]
             }
           ],
-          "health": 6
+          "health": 5
         },
         {
           "id": 316,
@@ -1066,16 +1066,6 @@
           "link_speed": "10000",
           "nodes": [
             {
-              "hostname": "ca-067.whiskergalaxy.com",
-              "weight": 1,
-              "health": 6,
-              "ips": [
-                "198.44.142.51",
-                "198.44.142.52",
-                "198.44.142.53"
-              ]
-            },
-            {
               "hostname": "ca-065.whiskergalaxy.com",
               "weight": 1,
               "health": 5,
@@ -1084,9 +1074,19 @@
                 "198.44.142.44",
                 "198.44.142.45"
               ]
+            },
+            {
+              "hostname": "ca-067.whiskergalaxy.com",
+              "weight": 1,
+              "health": 3,
+              "ips": [
+                "198.44.142.51",
+                "198.44.142.52",
+                "198.44.142.53"
+              ]
             }
           ],
-          "health": 6
+          "health": 4
         },
         {
           "id": 386,
@@ -1146,27 +1146,27 @@
           "link_speed": "10000",
           "nodes": [
             {
-              "hostname": "ca-west-029.whiskergalaxy.com",
-              "weight": 1,
-              "health": 3,
-              "ips": [
-                "95.173.219.14",
-                "95.173.219.15",
-                "95.173.219.16"
-              ]
-            },
-            {
               "hostname": "ca-west-030.whiskergalaxy.com",
               "weight": 1,
-              "health": 3,
+              "health": 2,
               "ips": [
                 "95.173.219.1",
                 "95.173.219.2",
                 "95.173.219.3"
               ]
+            },
+            {
+              "hostname": "ca-west-029.whiskergalaxy.com",
+              "weight": 1,
+              "health": 2,
+              "ips": [
+                "95.173.219.14",
+                "95.173.219.15",
+                "95.173.219.16"
+              ]
             }
           ],
-          "health": 3
+          "health": 2
         },
         {
           "id": 439,
@@ -1590,33 +1590,13 @@
           "link_speed": "10000",
           "nodes": [
             {
-              "hostname": "fr-036.whiskergalaxy.com",
-              "weight": 1,
-              "health": 4,
-              "ips": [
-                "135.136.60.34",
-                "135.136.60.35",
-                "135.136.60.36"
-              ]
-            },
-            {
               "hostname": "fr-034.whiskergalaxy.com",
               "weight": 2,
-              "health": 3,
+              "health": 2,
               "ips": [
                 "37.120.158.194",
                 "37.120.158.195",
                 "37.120.158.196"
-              ]
-            },
-            {
-              "hostname": "fr-032.whiskergalaxy.com",
-              "weight": 2,
-              "health": 4,
-              "ips": [
-                "146.70.253.130",
-                "146.70.253.131",
-                "146.70.253.132"
               ]
             },
             {
@@ -1628,9 +1608,29 @@
                 "37.120.158.227",
                 "37.120.158.228"
               ]
+            },
+            {
+              "hostname": "fr-032.whiskergalaxy.com",
+              "weight": 2,
+              "health": 2,
+              "ips": [
+                "146.70.253.130",
+                "146.70.253.131",
+                "146.70.253.132"
+              ]
+            },
+            {
+              "hostname": "fr-036.whiskergalaxy.com",
+              "weight": 1,
+              "health": 2,
+              "ips": [
+                "135.136.60.34",
+                "135.136.60.35",
+                "135.136.60.36"
+              ]
             }
           ],
-          "health": 3
+          "health": 2
         },
         {
           "id": 342,
@@ -1649,7 +1649,7 @@
             {
               "hostname": "fr-017.whiskergalaxy.com",
               "weight": 1,
-              "health": 4,
+              "health": 3,
               "ips": [
                 "84.17.43.225",
                 "84.17.43.226",
@@ -1659,7 +1659,7 @@
             {
               "hostname": "fr-023.whiskergalaxy.com",
               "weight": 1,
-              "health": 5,
+              "health": 3,
               "ips": [
                 "138.199.47.193",
                 "138.199.47.194",
@@ -1667,7 +1667,7 @@
               ]
             }
           ],
-          "health": 5
+          "health": 3
         },
         {
           "id": 411,
@@ -1729,7 +1729,7 @@
             {
               "hostname": "de-041.whiskergalaxy.com",
               "weight": 1,
-              "health": 8,
+              "health": 3,
               "ips": [
                 "135.136.0.34",
                 "135.136.0.35",
@@ -1739,15 +1739,25 @@
             {
               "hostname": "de-038.whiskergalaxy.com",
               "weight": 1,
-              "health": 9,
+              "health": 3,
               "ips": [
                 "185.104.184.130",
                 "185.104.184.131",
                 "185.104.184.132"
               ]
+            },
+            {
+              "hostname": "de-040.whiskergalaxy.com",
+              "weight": 1,
+              "health": 1,
+              "ips": [
+                "146.70.62.66",
+                "146.70.62.67",
+                "146.70.62.68"
+              ]
             }
           ],
-          "health": 9
+          "health": 2
         },
         {
           "id": 228,
@@ -1764,27 +1774,27 @@
           "link_speed": "10000",
           "nodes": [
             {
-              "hostname": "de-037.whiskergalaxy.com",
-              "weight": 1,
-              "health": 9,
-              "ips": [
-                "84.233.195.46",
-                "84.233.195.47",
-                "84.233.195.48"
-              ]
-            },
-            {
               "hostname": "de-036.whiskergalaxy.com",
               "weight": 1,
-              "health": 10,
+              "health": 3,
               "ips": [
                 "84.233.195.33",
                 "84.233.195.34",
                 "84.233.195.35"
               ]
+            },
+            {
+              "hostname": "de-037.whiskergalaxy.com",
+              "weight": 1,
+              "health": 4,
+              "ips": [
+                "84.233.195.46",
+                "84.233.195.47",
+                "84.233.195.48"
+              ]
             }
           ],
-          "health": 10
+          "health": 4
         },
         {
           "id": 449,
@@ -2211,7 +2221,7 @@
             {
               "hostname": "nl-046.whiskergalaxy.com",
               "weight": 1,
-              "health": 6,
+              "health": 3,
               "ips": [
                 "185.212.171.162",
                 "185.212.171.163",
@@ -2221,7 +2231,7 @@
             {
               "hostname": "nl-047.whiskergalaxy.com",
               "weight": 1,
-              "health": 7,
+              "health": 2,
               "ips": [
                 "185.212.171.66",
                 "185.212.171.67",
@@ -2229,7 +2239,7 @@
               ]
             }
           ],
-          "health": 7
+          "health": 3
         },
         {
           "id": 193,
@@ -2246,27 +2256,27 @@
           "link_speed": "10000",
           "nodes": [
             {
-              "hostname": "nl-025.whiskergalaxy.com",
-              "weight": 1,
-              "health": 5,
-              "ips": [
-                "169.150.196.193",
-                "169.150.196.194",
-                "169.150.196.195"
-              ]
-            },
-            {
               "hostname": "nl-024.whiskergalaxy.com",
               "weight": 1,
-              "health": 7,
+              "health": 2,
               "ips": [
                 "169.150.196.221",
                 "169.150.196.222",
                 "169.150.196.223"
               ]
+            },
+            {
+              "hostname": "nl-025.whiskergalaxy.com",
+              "weight": 1,
+              "health": 2,
+              "ips": [
+                "169.150.196.193",
+                "169.150.196.194",
+                "169.150.196.195"
+              ]
             }
           ],
-          "health": 6
+          "health": 2
         },
         {
           "id": 466,
@@ -2354,29 +2364,9 @@
           "link_speed": "10000",
           "nodes": [
             {
-              "hostname": "no-017.whiskergalaxy.com",
-              "weight": 1,
-              "health": 3,
-              "ips": [
-                "146.70.219.226",
-                "146.70.219.227",
-                "146.70.219.228"
-              ]
-            },
-            {
-              "hostname": "no-014.whiskergalaxy.com",
-              "weight": 1,
-              "health": 4,
-              "ips": [
-                "146.70.219.242",
-                "146.70.219.243",
-                "146.70.219.244"
-              ]
-            },
-            {
               "hostname": "no-015.whiskergalaxy.com",
               "weight": 1,
-              "health": 2,
+              "health": 1,
               "ips": [
                 "130.195.211.2",
                 "130.195.211.3",
@@ -2384,17 +2374,37 @@
               ]
             },
             {
+              "hostname": "no-014.whiskergalaxy.com",
+              "weight": 1,
+              "health": 2,
+              "ips": [
+                "146.70.219.242",
+                "146.70.219.243",
+                "146.70.219.244"
+              ]
+            },
+            {
               "hostname": "no-016.whiskergalaxy.com",
               "weight": 1,
-              "health": 3,
+              "health": 1,
               "ips": [
                 "130.195.211.18",
                 "130.195.211.19",
                 "130.195.211.20"
               ]
+            },
+            {
+              "hostname": "no-017.whiskergalaxy.com",
+              "weight": 1,
+              "health": 1,
+              "ips": [
+                "146.70.219.226",
+                "146.70.219.227",
+                "146.70.219.228"
+              ]
             }
           ],
-          "health": 3
+          "health": 1
         },
         {
           "id": 433,
@@ -2524,6 +2534,16 @@
           "link_speed": "10000",
           "nodes": [
             {
+              "hostname": "ro-019.whiskergalaxy.com",
+              "weight": 1,
+              "health": 1,
+              "ips": [
+                "185.144.82.2",
+                "185.144.82.3",
+                "185.144.82.4"
+              ]
+            },
+            {
               "hostname": "ro-023.whiskergalaxy.com",
               "weight": 1,
               "health": 2,
@@ -2534,29 +2554,9 @@
               ]
             },
             {
-              "hostname": "ro-019.whiskergalaxy.com",
-              "weight": 1,
-              "health": 3,
-              "ips": [
-                "185.144.82.2",
-                "185.144.82.3",
-                "185.144.82.4"
-              ]
-            },
-            {
-              "hostname": "ro-024.whiskergalaxy.com",
-              "weight": 1,
-              "health": 3,
-              "ips": [
-                "66.234.147.194",
-                "66.234.147.195",
-                "66.234.147.196"
-              ]
-            },
-            {
               "hostname": "ro-017.whiskergalaxy.com",
               "weight": 1,
-              "health": 2,
+              "health": 1,
               "ips": [
                 "185.163.110.194",
                 "185.163.110.195",
@@ -2566,15 +2566,25 @@
             {
               "hostname": "ro-018.whiskergalaxy.com",
               "weight": 1,
-              "health": 2,
+              "health": 1,
               "ips": [
                 "91.207.103.194",
                 "91.207.103.195",
                 "91.207.103.196"
               ]
+            },
+            {
+              "hostname": "ro-024.whiskergalaxy.com",
+              "weight": 1,
+              "health": 1,
+              "ips": [
+                "66.234.147.194",
+                "66.234.147.195",
+                "66.234.147.196"
+              ]
             }
           ],
-          "health": 2
+          "health": 1
         },
         {
           "id": 430,
@@ -2777,7 +2787,7 @@
             {
               "hostname": "ch-026.whiskergalaxy.com",
               "weight": 2,
-              "health": 5,
+              "health": 2,
               "ips": [
                 "146.70.126.34",
                 "146.70.126.35",
@@ -2785,27 +2795,27 @@
               ]
             },
             {
-              "hostname": "ch-030.whiskergalaxy.com",
-              "weight": 1,
-              "health": 6,
-              "ips": [
-                "135.136.39.194",
-                "135.136.39.195",
-                "135.136.39.196"
-              ]
-            },
-            {
               "hostname": "ch-025.whiskergalaxy.com",
               "weight": 1,
-              "health": 3,
+              "health": 1,
               "ips": [
                 "37.120.213.194",
                 "37.120.213.195",
                 "37.120.213.196"
               ]
+            },
+            {
+              "hostname": "ch-030.whiskergalaxy.com",
+              "weight": 1,
+              "health": 3,
+              "ips": [
+                "135.136.39.194",
+                "135.136.39.195",
+                "135.136.39.196"
+              ]
             }
           ],
-          "health": 5
+          "health": 2
         },
         {
           "id": 264,
@@ -2838,7 +2848,7 @@
             {
               "hostname": "ch-027.whiskergalaxy.com",
               "weight": 1,
-              "health": 5,
+              "health": 2,
               "ips": [
                 "169.150.197.162",
                 "169.150.197.163",
@@ -2848,7 +2858,7 @@
             {
               "hostname": "ch-028.whiskergalaxy.com",
               "weight": 1,
-              "health": 5,
+              "health": 3,
               "ips": [
                 "89.187.165.97",
                 "89.187.165.98",
@@ -2856,7 +2866,7 @@
               ]
             }
           ],
-          "health": 5
+          "health": 3
         }
       ]
     },
@@ -2904,7 +2914,7 @@
             {
               "hostname": "uk-049.whiskergalaxy.com",
               "weight": 1,
-              "health": 3,
+              "health": 1,
               "ips": [
                 "37.221.113.130",
                 "37.221.113.131",
@@ -2912,27 +2922,27 @@
               ]
             },
             {
-              "hostname": "uk-048.whiskergalaxy.com",
-              "weight": 1,
-              "health": 2,
-              "ips": [
-                "37.221.113.194",
-                "37.221.113.195",
-                "37.221.113.196"
-              ]
-            },
-            {
               "hostname": "uk-050.whiskergalaxy.com",
               "weight": 1,
-              "health": 4,
+              "health": 1,
               "ips": [
                 "37.221.113.146",
                 "37.221.113.147",
                 "37.221.113.148"
               ]
+            },
+            {
+              "hostname": "uk-048.whiskergalaxy.com",
+              "weight": 1,
+              "health": 1,
+              "ips": [
+                "37.221.113.194",
+                "37.221.113.195",
+                "37.221.113.196"
+              ]
             }
           ],
-          "health": 3
+          "health": 1
         },
         {
           "id": 335,
@@ -2963,19 +2973,9 @@
           "link_speed": "10000",
           "nodes": [
             {
-              "hostname": "uk-040.whiskergalaxy.com",
-              "weight": 1,
-              "health": 3,
-              "ips": [
-                "84.17.50.157",
-                "84.17.50.158",
-                "84.17.50.159"
-              ]
-            },
-            {
               "hostname": "uk-039.whiskergalaxy.com",
               "weight": 1,
-              "health": 3,
+              "health": 2,
               "ips": [
                 "84.17.50.129",
                 "84.17.50.130",
@@ -2985,7 +2985,7 @@
             {
               "hostname": "uk-028.whiskergalaxy.com",
               "weight": 1,
-              "health": 3,
+              "health": 1,
               "ips": [
                 "212.102.63.92",
                 "212.102.63.93",
@@ -2995,15 +2995,25 @@
             {
               "hostname": "uk-029.whiskergalaxy.com",
               "weight": 1,
-              "health": 3,
+              "health": 1,
               "ips": [
                 "138.199.31.129",
                 "138.199.31.130",
                 "138.199.31.131"
               ]
+            },
+            {
+              "hostname": "uk-040.whiskergalaxy.com",
+              "weight": 1,
+              "health": 2,
+              "ips": [
+                "84.17.50.157",
+                "84.17.50.158",
+                "84.17.50.159"
+              ]
             }
           ],
-          "health": 3
+          "health": 2
         },
         {
           "id": 369,
@@ -3697,7 +3707,7 @@
             {
               "hostname": "hk-014.whiskergalaxy.com",
               "weight": 1,
-              "health": 5,
+              "health": 9,
               "ips": [
                 "146.70.250.18",
                 "146.70.250.19",
@@ -3715,7 +3725,7 @@
               ]
             }
           ],
-          "health": 6
+          "health": 8
         },
         {
           "id": 189,
@@ -4106,8 +4116,8 @@
           "wg_pubkey": "TKpGTxyjCr7+CiVhaYulaLZ7pnXEsg4135ZIlz99qwc=",
           "wg_endpoint": "dxb-304-wg.whiskergalaxy.com",
           "ovpn_x509": "dxb-304.windscribe.com",
-          "ping_ip": "146.70.191.98",
-          "ping_host": "http://ae-002.whiskergalaxy.com:6464/latency",
+          "ping_ip": "146.70.191.194",
+          "ping_host": "http://ae-003.whiskergalaxy.com:6464/latency",
           "link_speed": "1000"
         }
       ]
@@ -4548,8 +4558,8 @@
     }
   ],
   "info": {
-    "revision": 29845400,
-    "revision_hash": "285c15b762643f06d784463f621acd84d25beeed",
+    "revision": 29847040,
+    "revision_hash": "f93f5e6b824741ef74445a061e8cad7d54648e73",
     "changed": 1,
     "fc": 1,
     "pro_datacenters": []
